@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sign In
+  m_Text: Load Data
 --- !u!222 &73192163
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 300581647}
   - component: {fileID: 300581646}
   m_Layer: 5
-  m_Name: signInBtn
+  m_Name: loadBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -517,6 +517,7 @@ GameObject:
   - component: {fileID: 782835790}
   - component: {fileID: 782835789}
   - component: {fileID: 782835788}
+  - component: {fileID: 782835791}
   m_Layer: 5
   m_Name: startBtn
   m_TagString: Untagged
@@ -587,7 +588,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 782835789}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 782835791}
+        m_TargetAssemblyTypeName: screenSwitcher, Assembly-CSharp
+        m_MethodName: toScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Menu
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &782835789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -626,6 +639,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 782835786}
   m_CullTransparentMesh: 1
+--- !u!114 &782835791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782835786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6dd42b848f9b3b4890857d993958d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1039068323
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,6 +887,7 @@ GameObject:
   - component: {fileID: 1403651114}
   - component: {fileID: 1403651113}
   - component: {fileID: 1403651112}
+  - component: {fileID: 1403651115}
   m_Layer: 5
   m_Name: contact
   m_TagString: Untagged
@@ -932,7 +958,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1403651113}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1403651115}
+        m_TargetAssemblyTypeName: openSite, Assembly-CSharp
+        m_MethodName: OpenWebsite
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: www.mail.google.com/
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1403651113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -971,6 +1009,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403651110}
   m_CullTransparentMesh: 1
+--- !u!114 &1403651115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403651110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86fd1e9600449e4ea273d7868dbc1b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1745719227
 GameObject:
   m_ObjectHideFlags: 0
