@@ -1,0 +1,10 @@
+Library/
+Logs/
+obj/
+Packages/
+ProjectSetings/
+Temp/
+UserSettings/
+.vsconfig
+Archery Trainer Personal Project.sln
+Assembly-CSharp
