@@ -155,8 +155,8 @@ RectTransform:
   m_Father: {fileID: 2125114071}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.27482647}
-  m_AnchorMax: {x: 1, y: 0.36271277}
+  m_AnchorMin: {x: 0, y: 0.34170547}
+  m_AnchorMax: {x: 1, y: 0.4214865}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1155,8 +1155,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6048963}
   m_HandleRect: {fileID: 6048962}
   m_Direction: 2
-  m_Value: 0.30130726
-  m_Size: 0.0878863
+  m_Value: 0.3713306
+  m_Size: 0.07978101
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2714,8 +2714,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000013351, y: 206.20999}
-  m_SizeDelta: {x: 664.0247, y: 1137.8336}
+  m_AnchoredPosition: {x: -0.000013351, y: 148.41129}
+  m_SizeDelta: {x: 664.0247, y: 1253.431}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &746367038
 MonoBehaviour:
@@ -2755,7 +2755,7 @@ MonoBehaviour:
     \n3) Hold it firmly but make sure not to choke it with your fingers.\n4) Hold
     your thumb and little finger and strech out your three fingers to hold the band.\n5)
     Hook your fingers until the middle, and hold it a little tight.\n6) To hold it
-    in place while resting, give very little tension to the band."
+    in place while resting, give very little tension to the band.\n"
 --- !u!222 &746367039
 CanvasRenderer:
   m_ObjectHideFlags: 0
