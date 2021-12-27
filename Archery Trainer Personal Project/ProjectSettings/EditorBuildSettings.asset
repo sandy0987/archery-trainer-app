@@ -24,14 +24,17 @@ EditorBuildSettings:
     path: Assets/Scenes/LearnEquip.unity
     guid: d31e5e6e8202ae144a0596401e40e5e7
   - enabled: 1
-    path: Assets/Scenes/DailyWorkout.unity
-    guid: e30a22f851d5f9c4f8efdb9ee9e872d8
+    path: Assets/Scenes/Tasks.unity
+    guid: 90092fca51a2a6b40a1bc615abd801b0
+  - enabled: 1
+    path: Assets/Scenes/0_thera.unity
+    guid: eaec22b6b4fcac64d913cae40b01185d
   - enabled: 1
     path: Assets/Scenes/Levels.unity
     guid: 2f5d5f09ce0d8274e99b8a9e6fd5694c
   - enabled: 1
-    path: Assets/Scenes/Tasks.unity
-    guid: 90092fca51a2a6b40a1bc615abd801b0
+    path: Assets/Scenes/DailyWorkout.unity
+    guid: e30a22f851d5f9c4f8efdb9ee9e872d8
   - enabled: 1
     path: Assets/Scenes/Scorer.unity
     guid: 454eaf738d187004384d518e77d3d753
