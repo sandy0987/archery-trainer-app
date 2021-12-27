@@ -12,6 +12,7 @@ public class selectTask : MonoBehaviour
     public GameObject DrawInfoText;
     public GameObject AnchorInfoText;
     public GameObject ReleaseInfoText;
+    public GameObject ExtraThera;
 
     public GameObject StanceInfoImg;
     public GameObject GripInfoImg;
@@ -84,6 +85,14 @@ public class selectTask : MonoBehaviour
         {
             ReleaseInfoText.SetActive(false);
             ReleaseInfoImg.SetActive(false);
+        }
+        if (val == 6)
+        {
+            ExtraThera.SetActive(true);
+        }
+        else
+        {
+            ExtraThera.SetActive(false);
         }
     }
 }
