@@ -5,94 +5,94 @@ using TMPro;
 
 public class selectTask : MonoBehaviour
 {
-    public GameObject taskInfo;
+    public GameObject task1;
 
-    public GameObject StanceInfoText;
-    public GameObject GripInfoText;
-    public GameObject DrawInfoText;
-    public GameObject AnchorInfoText;
-    public GameObject ReleaseInfoText;
-    public GameObject ExtraThera;
+    public GameObject task2;
+    public GameObject task3;
+    public GameObject task4;
+    public GameObject task6;
+    public GameObject task7;
+    public GameObject task8;
 
-    public GameObject StanceInfoImg;
-    public GameObject GripInfoImg;
-    public GameObject DrawInfoImg;
-    public GameObject AnchorInfoImg;
-    public GameObject ReleaseInfoImg;
+    public GameObject task2img;
+    public GameObject task3Img;
+    public GameObject task4Img;
+    public GameObject task6Img;
+    public GameObject task7Img;
 
     public void HandleInputData(int val)
     {
-        taskInfo.SetActive(true);
+        task1.SetActive(true);
 
         if (val == 0)
         {
-            taskInfo.SetActive(true);
+            task1.SetActive(true);
         }
         else
         {
-            taskInfo.SetActive(false);
+            task1.SetActive(false);
         }
         if (val == 1)
         {
-            StanceInfoText.SetActive(true);
-            StanceInfoImg.SetActive(true);
+            task2.SetActive(true);
+            task2img.SetActive(true);
 
         }
         else
         {
-            StanceInfoText.SetActive(false);
-            StanceInfoImg.SetActive(false);
+            task2.SetActive(false);
+            task2img.SetActive(false);
 
         }
         if (val == 2)
         {
-            GripInfoText.SetActive(true);
-            GripInfoImg.SetActive(true);
+            task3.SetActive(true);
+            task3Img.SetActive(true);
 
         }
         else
         {
-            GripInfoText.SetActive(false); 
-            GripInfoImg.SetActive(false);
+            task3.SetActive(false); 
+            task3Img.SetActive(false);
 
         }
         if (val == 3)
         {
-            DrawInfoText.SetActive(true);
-            DrawInfoImg.SetActive(true);
+            task4.SetActive(true);
+            task4Img.SetActive(true);
         }
         else
         {
-            DrawInfoText.SetActive(false);
-            DrawInfoImg.SetActive(false);
+            task4.SetActive(false);
+            task4Img.SetActive(false);
         }
         if (val == 4)
         {
-            AnchorInfoText.SetActive(true);
-            AnchorInfoImg.SetActive(true);
+            task6.SetActive(true);
+            task6Img.SetActive(true);
         }
         else
         {
-            AnchorInfoText.SetActive(false);
-            AnchorInfoImg.SetActive(false);
+            task6.SetActive(false);
+            task6Img.SetActive(false);
         }
         if (val == 5)
         {
-            ReleaseInfoText.SetActive(true);
-            ReleaseInfoImg.SetActive(true);
+            task7.SetActive(true);
+            task7Img.SetActive(true);
         }
         else
         {
-            ReleaseInfoText.SetActive(false);
-            ReleaseInfoImg.SetActive(false);
+            task7.SetActive(false);
+            task7Img.SetActive(false);
         }
         if (val == 6)
         {
-            ExtraThera.SetActive(true);
+            task8.SetActive(true);
         }
         else
         {
-            ExtraThera.SetActive(false);
+            task8.SetActive(false);
         }
     }
 }
