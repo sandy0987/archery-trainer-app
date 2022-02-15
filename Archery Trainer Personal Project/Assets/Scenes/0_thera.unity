@@ -2805,7 +2805,7 @@ GameObject:
   - component: {fileID: 826813940}
   - component: {fileID: 826813939}
   m_Layer: 5
-  m_Name: theraImg
+  m_Name: infoImg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3521,14 +3521,17 @@ MonoBehaviour:
   task2: {fileID: 2064309101}
   task3: {fileID: 1455405286}
   task4: {fileID: 995566847}
+  task5: {fileID: 0}
   task6: {fileID: 439991342}
   task7: {fileID: 1754657965}
   task8: {fileID: 1229580559}
+  task9: {fileID: 0}
   task2img: {fileID: 1739311909}
   task3Img: {fileID: 1464760679}
   task4Img: {fileID: 1221355312}
+  task5Img: {fileID: 0}
   task6Img: {fileID: 1507724761}
-  task7Img: {fileID: 667733818}
+  task9Img: {fileID: 0}
 --- !u!114 &1136250150
 MonoBehaviour:
   m_ObjectHideFlags: 0
