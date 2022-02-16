@@ -148,7 +148,7 @@ public class SampleWebView : MonoBehaviour
 
         //webViewObject.SetScrollbarsVisibility(true);
 
-        webViewObject.SetMargins(35, 200, 35, Screen.height / 3);
+        webViewObject.SetMargins(35, 200, 35, Screen.height / 16);
         webViewObject.SetTextZoom(100);  // android only. cf. https://stackoverflow.com/questions/21647641/android-webview-set-font-size-system-default/47017410#47017410
         webViewObject.SetVisibility(true);
 
@@ -202,28 +202,28 @@ public class SampleWebView : MonoBehaviour
         var x = 10;
 
         GUI.enabled = webViewObject.CanGoBack();
-        if (GUI.Button(new Rect(x, 10, 40, 30), "<")) {
+        if (GUI.Button(new Rect(x, 20, 60, 30), "<")) {
             webViewObject.GoBack();
         }
         GUI.enabled = true;
         x += 90;
 
         GUI.enabled = webViewObject.CanGoForward();
-        if (GUI.Button(new Rect(x, 10, 40, 30), ">")) {
+        if (GUI.Button(new Rect(x, 40, 60, 30), ">")) {
             webViewObject.GoForward();
         }
         GUI.enabled = true;
         x += 90;
 
-        if (GUI.Button(new Rect(x, 10, 40, 30), "r")) {
+        if (GUI.Button(new Rect(x, 40, 65, 35), "r")) {
             webViewObject.Reload();
         }
         x += 90;
 
-        GUI.TextField(new Rect(x, 10, 80, 30), "" + webViewObject.Progress());
+        GUI.TextField(new Rect(x, 40, 60, 30), "" + webViewObject.Progress());
         x += 190;
 
-        if (GUI.Button(new Rect(x, 10, 40, 30), "*")) {
+        if (GUI.Button(new Rect(x, 40, 60, 30), "*")) {
             var g = GameObject.Find("WebViewObject");
             if (g != null) {
                 Destroy(g);
@@ -233,12 +233,12 @@ public class SampleWebView : MonoBehaviour
         }
         x += 90;
 
-        if (GUI.Button(new Rect(x, 10, 40, 30), "c")) {
+        if (GUI.Button(new Rect(x, 40, 60, 20), "c")) {
             Debug.Log(webViewObject.GetCookies(Url));
         }
         x += 90;
 
-        if (GUI.Button(new Rect(x, 10, 40, 30), "x")) {
+        if (GUI.Button(new Rect(x, 40, 60, 20), "x")) {
             webViewObject.ClearCookies();
         }
         x += 90;
