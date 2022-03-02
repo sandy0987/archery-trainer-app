@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
-public class selectTask : MonoBehaviour
+public class selectTask1 : MonoBehaviour
 {
     public GameObject task1;
 
@@ -15,7 +14,7 @@ public class selectTask : MonoBehaviour
     public GameObject task7;
     public GameObject task8;
     public GameObject task9;
-    
+
 
     public GameObject task1Img;
     public GameObject task2Img;
@@ -63,7 +62,7 @@ public class selectTask : MonoBehaviour
         }
         else
         {
-            task3.SetActive(false); 
+            task3.SetActive(false);
             task3Img.SetActive(false);
 
         }
