@@ -15,7 +15,9 @@ public class selectTask : MonoBehaviour
     public GameObject task7;
     public GameObject task8;
     public GameObject task9;
-    
+    public GameObject task10;
+    public GameObject task11;
+
 
     public GameObject task1Img;
     public GameObject task2Img;
@@ -122,6 +124,24 @@ public class selectTask : MonoBehaviour
         {
             task9.SetActive(false);
             task9Img.SetActive(false);
+        }
+
+        if (val == 9)
+        {
+            task10.SetActive(true);
+        }
+        else
+        {
+            task10.SetActive(false);
+        }
+
+        if (val == 10)
+        {
+            task11.SetActive(true);
+        }
+        else
+        {
+            task11.SetActive(false);
         }
     }
 }
