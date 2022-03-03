@@ -4754,13 +4754,13 @@ MonoBehaviour:
   task9: {fileID: 1225560717}
   task10: {fileID: 543780152}
   task11: {fileID: 396151947}
-  task1Img: {fileID: 0}
+  task1Img: {fileID: 917023876}
   task2Img: {fileID: 917023876}
   task3Img: {fileID: 917023876}
   task4Img: {fileID: 917023876}
   task5Img: {fileID: 917023876}
   task6Img: {fileID: 917023876}
-  task9Img: {fileID: 0}
+  task9Img: {fileID: 917023876}
 --- !u!114 &1713649267
 MonoBehaviour:
   m_ObjectHideFlags: 0
